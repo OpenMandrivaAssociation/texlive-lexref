@@ -6,7 +6,7 @@
 # catalog-version 1.0.1 alpha
 Name:		texlive-lexref
 Version:	1.0.1alpha
-Release:	2
+Release:	3
 Summary:	Convenient and uniform references to legal provisions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lexref
