@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.0.1 alpha
 Name:		texlive-lexref
-Version:	1.0.1alpha
-Release:	5
+Version:	1.1a
+Release:	1
 Summary:	Convenient and uniform references to legal provisions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lexref
