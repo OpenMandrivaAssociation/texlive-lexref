@@ -1,18 +1,12 @@
-# revision 32751
-# category Package
-# catalog-ctan /macros/latex/contrib/lexref
-# catalog-date 2014-01-21 18:42:00 +0100
-# catalog-license lppl1.3
-# catalog-version 1.0.1 alpha
 Name:		texlive-lexref
-Version:	1.1a
-Release:	2
+Version:	36026
+Release:	1
 Summary:	Convenient and uniform references to legal provisions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lexref
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lexref.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lexref.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lexref.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lexref.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +22,12 @@ indexes for each cited Act. The package is still under
 development, and should be treated as an 'alpha'-release.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +38,7 @@ development, and should be treated as an 'alpha'-release.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
