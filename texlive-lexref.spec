@@ -1,6 +1,6 @@
 Name:		texlive-lexref
 Version:	36026
-Release:	1
+Release:	2
 Summary:	Convenient and uniform references to legal provisions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lexref
