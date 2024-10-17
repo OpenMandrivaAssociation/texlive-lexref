@@ -3,7 +3,7 @@ Version:	36026
 Release:	2
 Summary:	Convenient and uniform references to legal provisions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lexref
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/lexref
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lexref.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lexref.doc.r%{version}.tar.xz
